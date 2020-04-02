@@ -3,7 +3,7 @@ from gym import error, spaces, utils
 from gym.utils import seeding
 
 
-class MyEnvEnv(gym.Env):
+class MyEnv(gym.Env):
     metadata = {'render.modes': ['human']}
 
     def __init__(self):

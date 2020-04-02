@@ -2,9 +2,9 @@ from gym.envs.registration import register
 
 register(
     id='my_env-v0',
-    entry_point='my_env.envs:FooEnv',
+    entry_point='my_env.envs:MyEnvEnv',
 )
 register(
-    id='my_env-extrahard-v0',
-    entry_point='my_env.envs:FooExtraHardEnv',
+    id='my-extrahard-v0',
+    entry_point='my_env.envs:MyExtraHardEnv',
 )

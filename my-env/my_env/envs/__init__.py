@@ -1,2 +1,2 @@
-from my_env.envs.foo_env import MyEnv
-from my_env.envs.foo_extrahard_env import MyEnvExtraHardEnv
+from my-env.envs.my_env import MyEnv
+from my-env.envs.my_extrahard_env import MyExtraHardEnv
